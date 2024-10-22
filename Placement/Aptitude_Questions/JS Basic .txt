@@ -1,0 +1,311 @@
+Javascript Basics 
+
+1. What is the difference between `let`, `var`, and `const` in JavaScript?
+   `var` is function-scoped, `let` and `const` are block-scoped. `const` cannot be reassigned, while `let` can.
+
+2. What are closures in JavaScript?
+   Closures occur when an inner function has access to variables from its outer function scope, even after the outer function has returned.
+
+3. Explain the concept of promises in JavaScript.
+   A promise represents an asynchronous operation. It can be in one of three states: pending, fulfilled, or rejected.
+
+4. What is hoisting in JavaScript?
+   Hoisting is JavaScript's behavior of moving declarations (but not initializations) to the top of their scope, allowing them to be used before they are declared.
+
+5. What is the `this` keyword in JavaScript?
+   `this` refers to the object in which a function is called. Its value depends on the context and the calling object.
+
+6. What is the difference between `==` and `===` in JavaScript?
+   `==` compares values after type coercion, while `===` compares both value and type without type conversion.
+
+7. Explain event delegation in JavaScript.
+   Event delegation is a technique where a single event listener is added to a parent element to manage events on its child elements.
+
+8. What is the difference between synchronous and asynchronous JavaScript?
+   Synchronous code runs line by line, blocking further execution until the current task is completed. Asynchronous code allows tasks to run in the background.
+
+9. What is the purpose of the `bind()` method in JavaScript?
+   `bind()` creates a new function that, when called, has its `this` keyword set to a specific value, allowing for more control over `this` in callbacks.
+
+10. What are arrow functions in JavaScript?
+    Arrow functions provide a shorter syntax for function expressions and do not bind their own `this`, using the surrounding scope instead.
+
+11. What is the event loop in JavaScript?
+    The event loop is responsible for executing asynchronous code by handling the callback queue and ensuring that tasks are executed in the proper order.
+
+12. Explain the difference between `map()` and `forEach()` in JavaScript.
+    `map()` returns a new array with the results of applying a function to each element, while `forEach()` simply iterates over the array without returning anything.
+
+13. What is the `call()` method in JavaScript?
+    `call()` invokes a function with a specified `this` context and arguments provided individually.
+
+14. What are JavaScript promises and async/await?
+    Promises handle asynchronous operations, while `async/await` provides syntactic sugar for working with promises, making asynchronous code look synchronous.
+
+15. What is the difference between `null` and `undefined` in JavaScript?
+    `null` is an assigned value representing "no value", while `undefined` means a variable has been declared but not yet assigned a value.
+
+16. Explain what a higher-order function is in JavaScript.
+    A higher-order function is a function that takes another function as an argument or returns a function as a result.
+
+17. What is the purpose of the `reduce()` method in JavaScript?
+    `reduce()` is used to apply a function to each array element, reducing the array to a single value (e.g., sum, product).
+
+18. What is a callback function in JavaScript?
+    A callback function is a function passed as an argument to another function, to be executed after a certain operation is completed.
+
+19. What is JSON and how is it used in JavaScript?
+    JSON (JavaScript Object Notation) is a lightweight format for data exchange. It is used to serialize objects into strings and parse strings into objects.
+
+20. What is the purpose of `Array.prototype.filter()` in JavaScript?
+    `filter()` creates a new array with all elements that pass a specified test (provided as a callback function).
+
+21. Explain the difference between function declarations and function expressions.
+    Function declarations are hoisted and can be called before they are defined, while function expressions are not hoisted.
+
+22. What is debouncing in JavaScript?
+    Debouncing is a technique to ensure that a function is not invoked too frequently, by delaying its execution until a specified time has passed since the last call.
+
+23. What is the `typeof` operator in JavaScript?
+    `typeof` is used to check the data type of a variable. For example, `typeof 42` returns `"number"`.
+
+24. What are JavaScript template literals?
+    Template literals are enclosed in backticks and allow embedded expressions using `${}`. They make it easier to construct strings with dynamic content.
+
+25. What is the `spread` operator in JavaScript?
+    The spread operator (`...`) allows an iterable (like an array) to be expanded into individual elements where multiple values are expected.
+
+26. What is the difference between `slice()` and `splice()` in JavaScript?
+    `slice()` returns a shallow copy of a portion of an array, while `splice()` modifies the array by adding/removing elements.
+
+27. What is destructuring in JavaScript?
+    Destructuring is a syntax for unpacking values from arrays or properties from objects into distinct variables.
+
+28. What is the purpose of the `finally()` method in promises?
+    `finally()` is called after a promise is settled (either resolved or rejected) and allows you to execute code regardless of the outcome.
+
+29. What is `NaN` in JavaScript?
+    `NaN` stands for "Not-a-Number" and indicates a result that is not a valid number, such as dividing a string by a number.
+
+30. Explain how the `setTimeout()` function works in JavaScript.
+    `setTimeout()` sets a timer that executes a callback function after a specified delay in milliseconds.
+
+31. What is the difference between deep copy and shallow copy in JavaScript?
+    A shallow copy copies references to nested objects, while a deep copy creates completely independent copies of all objects.
+
+32. What is event bubbling in JavaScript?
+    Event bubbling is when an event starts from the target element and propagates upward to its ancestors in the DOM.
+
+33. What is the purpose of `Object.freeze()` in JavaScript?
+    `Object.freeze()` makes an object immutable, preventing modification of existing properties or adding new properties.
+
+34. Explain the `async` and `await` keywords in JavaScript.
+    `async` functions return promises, while `await` pauses execution until the promise resolves, allowing asynchronous code to be written in a synchronous style.
+
+35. What is a `Proxy` in JavaScript?
+    A `Proxy` is an object that wraps another object and intercepts operations like reading or writing properties, allowing custom behavior.
+
+36. What is functional programming in JavaScript?
+    Functional programming is a paradigm that treats functions as first-class citizens, avoids side effects, and emphasizes immutability.
+
+37. What are modules in JavaScript and how are they used?
+    JavaScript modules allow code to be split into reusable files that can be imported and exported between scripts, improving code organization.
+
+38. What is the difference between `window` and `document` in JavaScript?
+    `window` represents the browser window object, while `document` represents the DOM (Document Object Model) of the current web page.
+
+39. What is the purpose of the `instanceof` operator?
+    `instanceof` checks whether an object is an instance of a specific class or constructor, returning `true` or `false`.
+
+40. What is the purpose of `Object.assign()` in JavaScript?
+    `Object.assign()` copies properties from one or more source objects to a target object, allowing for object cloning and merging.
+
+41. What is the difference between `Object.keys()` and `Object.values()`?
+    `Object.keys()` returns an array of a given object's property names, while `Object.values()` returns an array of the corresponding property values.
+
+42. What is the difference between `for...of` and `for...in` loops in JavaScript?
+    `for...of` iterates over iterable objects like arrays, while `for...in` iterates over enumerable properties of an object.
+
+43. What is a promise chain in JavaScript?
+    A promise chain is created by chaining `.then()` methods together to execute multiple asynchronous operations in sequence.
+
+44. What are default parameters in JavaScript?
+    Default parameters allow function parameters to have default values if no argument is passed, simplifying function calls.
+
+45. What is a generator function in JavaScript?
+    A generator function uses `function` syntax and can pause execution using the `yield` keyword, resuming later with `.next()`.
+
+46. What is the `localStorage` object in JavaScript?
+    `localStorage` allows the storage of key-value pairs in the browser that persist even after the page is closed, unlike `sessionStorage`.
+
+47. What is a polyfill in JavaScript?
+    A polyfill is a piece of code that provides modern functionality on older browsers that do not support it natively.
+
+48. What is the difference between `apply()` and `call()` in JavaScript?
+    Both invoke functions with a specified `this` context, but `apply()` takes an array of arguments, while `call()`
+
+ takes individual arguments.
+
+49. What is the difference between `innerHTML` and `textContent`?
+    `innerHTML` returns the HTML content of an element, while `textContent` returns only the text, ignoring HTML tags.
+
+50. What is an Immediately Invoked Function Expression (IIFE)?
+    An IIFE is a function that is defined and immediately invoked, often used to create a local scope and avoid polluting the global namespace.
+
+
+ADV
+------
+
+1. What is `Object.create()` in JavaScript?
+   `Object.create()` creates a new object with the specified prototype object and properties. It’s a way to set up prototype inheritance.
+
+2. What is currying in JavaScript?
+   Currying is a technique where a function takes multiple arguments one at a time. Each function call returns another function until all arguments are provided.
+
+3. What is `strict mode` in JavaScript?
+   Strict mode enables a stricter parsing and error handling in your JavaScript code, catching common coding mistakes like undeclared variables.
+
+4. What is the purpose of the `export` and `import` keywords in JavaScript?
+   `export` and `import` are used in JavaScript ES6 modules to share and load functionality across different files.
+
+5. What is the purpose of the `setInterval()` function?
+   `setInterval()` repeatedly calls a function with a fixed time delay in milliseconds. It continues calling the function until cleared.
+
+6. What is tail call optimization in JavaScript?
+   Tail call optimization is a memory-saving technique where the last function call in a function doesn’t add a new frame to the call stack.
+
+7. What is the `Promise.all()` method in JavaScript?
+   `Promise.all()` takes an array of promises and resolves when all of them are resolved, or rejects if any of them fail.
+
+8. What is an `async generator` in JavaScript?
+   An async generator allows functions to yield multiple values over time, returning promises with `await` to handle asynchronous operations.
+
+9. What is an `observable` in JavaScript?
+   An observable represents a stream of events over time, where data is emitted asynchronously, and observers subscribe to it to receive updates.
+
+10. What is the `Intl` object in JavaScript?
+    The `Intl` object is used for internationalization, providing language-sensitive string comparison, number formatting, and date/time formatting.
+
+11. What is the difference between `encodeURIComponent()` and `encodeURI()`?
+    `encodeURI()` escapes characters necessary for a URI, while `encodeURIComponent()` escapes all special characters, making it suitable for individual query parameters.
+
+12. What is the `fetch()` API in JavaScript?
+    `fetch()` is a modern JavaScript API used to make network requests, returning a promise that resolves with the `Response` object.
+
+13. What is object destructuring in JavaScript?
+    Object destructuring allows you to extract multiple properties from an object and assign them to variables in a single statement.
+
+14. What is the `DocumentFragment` in JavaScript?
+    A `DocumentFragment` is a minimal DOM-like object that can hold nodes temporarily, allowing you to manipulate a group of elements before appending them to the DOM.
+
+15. What is the purpose of `Promise.race()` in JavaScript?
+    `Promise.race()` returns a promise that resolves or rejects as soon as one of the promises in the iterable resolves or rejects.
+
+16. What is the `typeof null` in JavaScript and why?
+    `typeof null` returns `"object"` because of a bug in JavaScript’s early implementation, though null is technically a primitive value.
+
+17. What are service workers in JavaScript?
+    Service workers are scripts that run in the background, allowing features like offline support, background sync, and push notifications for web apps.
+
+18. What is a WeakMap in JavaScript?
+    A `WeakMap` is a collection of key-value pairs where the keys must be objects and are weakly referenced, meaning they can be garbage-collected.
+
+19. What are regular expressions in JavaScript?
+    Regular expressions are patterns used to match character combinations in strings. They can be used for searching, replacing, or validating data.
+
+20. What is a factory function in JavaScript?
+    A factory function is a function that returns a new object every time it's called, allowing you to create multiple instances of an object.
+
+21. What is `Object.entries()` in JavaScript?
+    `Object.entries()` returns an array of a given object's own enumerable property key-value pairs, useful for iterating over object properties.
+
+22. What is `Object.fromEntries()` in JavaScript?
+    `Object.fromEntries()` transforms a list of key-value pairs into an object, reversing the effect of `Object.entries()`.
+
+23. What is an `iterator` in JavaScript?
+    An iterator is an object that defines a sequence and potentially a return value upon its completion using the `next()` method.
+
+24. What is a `symbol` in JavaScript?
+    A `symbol` is a primitive data type that provides a unique identifier, useful for adding hidden object properties that won’t collide with other property keys.
+
+25. What is `eval()` in JavaScript and why should it be avoided?
+    `eval()` executes a string of JavaScript code. It is generally avoided due to security and performance concerns, as it can execute malicious code.
+
+26. What is `new.target` in JavaScript?
+    `new.target` lets you detect whether a function or constructor was called using the `new` keyword, preventing misuse of constructors as regular functions.
+
+27. What is the difference between `Object.seal()` and `Object.freeze()`?
+    `Object.seal()` prevents new properties from being added or removed, while `Object.freeze()` also prevents changes to existing properties' values.
+
+28. What is a promise constructor in JavaScript?
+    A promise constructor is a function passed to `new Promise()`. It takes two arguments, `resolve` and `reject`, used to control the outcome of the promise.
+
+29. What is `Function.prototype.apply()` in JavaScript?
+    `apply()` is similar to `call()` but takes an array of arguments. It allows you to call a function with a specific `this` and arguments provided in an array.
+
+30. What is the difference between `Math.random()` and `Math.floor()`?
+    `Math.random()` generates a random floating-point number between 0 (inclusive) and 1 (exclusive). `Math.floor()` rounds a number down to the nearest integer.
+
+31. What is the difference between `innerWidth` and `clientWidth` in JavaScript?
+    `innerWidth` returns the width of the browser window, including scrollbars. `clientWidth` returns the width of an element excluding borders and scrollbars.
+
+32. What is the `history` object in JavaScript?
+    The `history` object allows manipulation of the browser session history, enabling navigation through the user's past browsing actions.
+
+33. What is a Proxy trap in JavaScript?
+    A Proxy trap intercepts operations on an object, such as property access, assignment, or method invocation, enabling custom behavior through a handler.
+
+34. What is `Object.defineProperty()` in JavaScript?
+    `Object.defineProperty()` defines a new property directly on an object or modifies an existing one, allowing fine-grained control over its behavior (e.g., writable, configurable).
+
+35. What is `Object.getOwnPropertyDescriptor()` in JavaScript?
+    `Object.getOwnPropertyDescriptor()` returns a property descriptor for an object’s own property, describing attributes like `value`, `writable`, `enumerable`, and `configurable`.
+
+36. What is an accessor property in JavaScript?
+    Accessor properties are properties defined by getter and setter functions, allowing custom logic when retrieving or setting a value.
+
+37. What are weak references in JavaScript?
+    Weak references, like those in `WeakMap`, allow an object to be garbage-collected if there are no strong references to it, preventing memory leaks.
+
+38. What is `Array.prototype.every()` in JavaScript?
+    `every()` checks if all elements in an array satisfy a given condition (predicate). It returns `true` if all elements pass the test, otherwise `false`.
+
+39. What is the difference between `addEventListener()` and `onclick`?
+    `addEventListener()` allows multiple event listeners on an element, while `onclick` can only have one handler per element.
+
+40. What is `sessionStorage` in JavaScript?
+    `sessionStorage` is similar to `localStorage` but persists data only for the duration of the page session, which ends when the browser or tab is closed.
+
+41. What is method chaining in JavaScript?
+    Method chaining is a programming pattern where multiple methods are called on the same object consecutively, returning the object after each method.
+
+42. What is `Object.is()` in JavaScript?
+    `Object.is()` compares two values for equality, similar to `===`, but it also handles special cases like comparing `NaN` to `NaN` (which returns `true`).
+
+43. What is `setImmediate()` in JavaScript?
+    `setImmediate()` executes a function as soon as the current event loop completes, but before any I/O events or timers. It’s not part of standard JavaScript but is available in Node.js.
+
+44. What is throttling in JavaScript?
+    Throttling limits the number of times a function can be called over a period. It ensures that a function is called no more than once every specified interval.
+
+45. What is `requestAnimationFrame()` in JavaScript?
+    `requestAnimationFrame()` tells the browser to execute a function before the next repaint, used to optimize animations for smoother performance.
+
+46. What is shadow DOM in JavaScript?
+    Shadow DOM is a web standard that allows encapsulation of the DOM and CSS within a
+
+ component, preventing styles from leaking into or out of the component.
+
+47. What is the difference between synchronous and asynchronous exceptions in JavaScript?
+    Synchronous exceptions are thrown during code execution, while asynchronous exceptions, such as promise rejections, occur after code execution completes.
+
+48. What is `Reflect` in JavaScript?
+    The `Reflect` object provides methods to intercept JavaScript operations, complementing Proxy by allowing reflective operations like `Reflect.get()` or `Reflect.apply()`.
+
+49. What is `Object.getPrototypeOf()` in JavaScript?
+    `Object.getPrototypeOf()` returns the prototype (i.e., the internal `[[Prototype]]`) of a given object, providing insight into the object’s inheritance chain.
+
+50. What is a module pattern in JavaScript?
+    The module pattern encapsulates code in an IIFE or an ES6 module, allowing you to create private variables and methods while exposing only what’s needed.
+    
+  
