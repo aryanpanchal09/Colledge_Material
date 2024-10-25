@@ -1,20 +1,19 @@
-Php Project Run 
-- Database connect 
-- Correct Xamp Version 
+Bootstrap - HTML CSS JS Framework
 
-- Php basics 
-- how to manage sql database 
+_ start with underscore means its a component s
 
-React Project Run 
-- Chat Engine New Acc Open 
+<?php require 'partials/_nav.php'?>
 
-Combine Button 
+<li class="nav-item active">
+<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+</li>
 
-Diagram Understand Changes
-- Use case Diagram 
-- Interaction Diagram 
-- Activity Diagram 
-- Table Values Change 
+<a class="nav-link" href="/loginsystem">Home <span class="sr-only">(current)</span></a> - to directly access a homepage
 
-- Dates Change to 26/10/2024 - Project Completion 
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" herf="#" id="navbarDropdown" role="button" data-toggle="dropdown">
+Dropdown
+</a>
 
+div.container 
+<h1>Sign up to our website</h1>
