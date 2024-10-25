@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Document</title>
+<style>
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+}
+html{
+	box-sizing: border-box;
+}
+.row{
+	padding-left: 5%;
+}
+*, *:before, *:after{
+	box-sizing: inherit;
+}
+.column{
+	float: left;
+	width: 31.3%;
+	margin-bottom: 16px;
+	padding: 0 8px;
+}
+.card{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	margin: 8px;
+	background-color: white;
+	color: black;
+}
+.about-section{
+		  padding: 50px;
+		  text-align: center;
+		  background-color: #474e5d;
+		  color: white;
+}
+.container{
+	padding: 0 16px;
+}
+.container::after, .row::after{
+	content: "";
+	clear: both;
+	display: table;
+}
+.title{
+	color: grey;
+}
+.title a{
+	text-decoration: none;
+	color: white;
+	background-color: black;
+	border-radius: 50px;
+	padding: 15px;
+}
+.button{
+	border: none;
+	outline: 0;
+	display: inline-block;
+	padding: 8px;
+	color: white;
+	background-color: #000;
+	text-align: center;
+	cursor: pointer;
+	width: 100%;
+}
+.button:hover{
+	background-color: #555;
+}
+.title{
+    margin-top: 10%;
+}
+.tatva{
+	text-align: center;
+}
+.map{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	margin: 4% 0px 0px 3%;
+}
+.map_menu{
+	width: 50%;
+}
+.map_form{
+	width: 50%;
+	padding-left: 20px;
+}
+.form_name{
+    margin-bottom: 23px;
+}
+.form_name input{
+    width: 88%;
+    border: 4px solid black;
+    height: 50px;
+    padding-left: 15px;
+    color: #00c6a9;
+    font-size: 20px;
+}
+.form_massage{
+    margin-bottom: 18px;
+}
+.form_massage input{
+    width: 88%;
+    border: 4px solid black;
+    height: 140px;
+    padding-left: 15px;
+    color: #00c6a9;
+    font-size: 20px;
+}
+.form_button button{
+    display: inline;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    font-size: 20px;
+    padding: 10px 50px 10px 50px;
+	border-radius: 25px;
+}
+.form_button button:hover{
+    display: inline;
+    background-color: #00c6a9;
+    color: white;
+    border: 1px solid #00c6a9;
+    font-size: 20px;
+    padding: 10px 50px 10px 50px;
+	border-radius: 25px;
+}
+@media screen and (max-width: 650px) {
+	.column {
+	width: 100%;
+	display: block;
+}
+}
+</style>		
+</head>
+<body>
+	<h1 class="tatva">About US</h1>
+<hr>
+<div class="about-section">
+	<h2 style="text-align:center">Our Team</h2>
+	<div class="row">
+		<div class="column">
+			<div class="card"><br><br>
+				<img src="./uploads/3.jpeg" alt="Tatva" style="width:170px; border-radius: 50%; height: 170px;  display: block; margin-left: auto; margin-right: auto;"><br>
+				<div class="container">
+					<h2>Tatva Shah</h2>
+					<p class="title">
+					<a href="https://www.google.com/">shahtatva118@gmail.com</a><br><br><br>
+				</p>
+				</div>
+			</div>
+		</div>
+		<div class="column">
+			<div class="card"><br><br>
+				<img src="./uploads/2.jpeg" alt="Tatva" style="width:170px; border-radius: 50%; height: 170px;  display: block; margin-left: auto; margin-right: auto;"><br>
+				<div class="container">
+					<h2>Umang Patel</h2>
+					<p class="title">
+					<a href="https://www.google.com/">patelumangmca42@gmail.com</a><br><br>
+					</p>
+					<br>
+				</div>
+			</div>
+		</div>
+		<div class="column">
+			<div class="card"><br><br>
+				<img src="./uploads/4.jpeg" alt="Tatva" style="width:170px; border-radius: 50%; height: 170px;  display: block; margin-left: auto; margin-right: auto;"><br>
+				<div class="container">
+					<h2>Aryan Panchal</h2>
+					<p class="title">
+					<a href="https://www.google.com/">aryantech03@gmail.com</a><br><br>
+					</p>
+					<br>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="map">
+	<div class="map_menu">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1950.1561421036217!2d71.79906692605671!3d22.56309621706142!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395930f9c9b85ba5%3A0xb5f97373c9198d9f!2sHQ7X%2B6MR%2C%20Unnamed%20Road%2C%20Vipul%20Society%2C%20Limbdi%2C%20Gujarat%20363421!5e1!3m2!1sen!2sin!4v1711729937436!5m2!1sen!2sin" width="1170" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	</div>
+</div>
+</body>
+</html>

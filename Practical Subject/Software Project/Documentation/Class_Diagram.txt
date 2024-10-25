@@ -1,0 +1,85 @@
+Customer
+
++customer_id: int
++customer_name: string
++customer_add: string
++customer_phone: string
++customer_email: string
++customer_username: string
++customer_password: string
+
++manageCart()
++viewProduct()
++manageProfile()
++searchProduct()
+
+Order
+
++order_id: int
++customer_id: int
++product_id: int
++product_amount: float
++product_qty: int
++order_date: date
++total_amount: float 
+
++insertOrder()
++updateOrder()
++deleteOrder()
++viewOrder()
+
+Admin 
+
++id: int
++username: string
++password: password
+
++view()
++manage()
+
+Categorie
+
++categorie_id: int
++categorie_name: string
+
++insertCategorie()
++updateCategorie()
++deleteCategorie()
++viewCategorie()
+
+Product
+
++product_id: int
++product_name: string
++product_price: float 
++product_color: string
++product_description: string
++product_size: string
++product_qty: string
+
++addProduct()
++updateProduct()
++deleteProduct()
++searchProduct()
+
+Payment
+
++payment_id: int
++payment_amount: float 
++payment_date: date
++payment_customer_id: int
+
++addPayment()
++updatePayment()
++deletePayment()
++searchPayment()
+
+Sub-Categories
+
++subcategories: int
++subcategories_name: string
+
++insertSubcategories()
++updateSubcategories()
++deleteSubcategories()
++viewSubcategories()

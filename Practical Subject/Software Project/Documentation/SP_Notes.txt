@@ -1,0 +1,20 @@
+Php Project Run 
+- Database connect 
+- Correct Xamp Version 
+
+- Php basics 
+- how to manage sql database 
+
+React Project Run 
+- Chat Engine New Acc Open 
+
+Combine Button 
+
+Diagram Understand Changes
+- Use case Diagram 
+- Interaction Diagram 
+- Activity Diagram 
+- Table Values Change 
+
+- Dates Change to 26/10/2024 - Project Completion 
+
