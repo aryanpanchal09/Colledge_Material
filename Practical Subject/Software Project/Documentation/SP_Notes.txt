@@ -15,5 +15,109 @@ _ start with underscore means its a component s
 Dropdown
 </a>
 
-div.container 
-<h1>Sign up to our website</h1>
+div.container - <div class="container">
+<h1 class="text-container">Sign up to our website</h1>
+<form action="/loginsystem/signup.php" method="post">
+<div class="form-group col-md-6">
+<label for="uname">Username</label>
+<input type="email" class="form-control" id="exampleInputEmail" name="username" aria-describedby="emailHelp">
+<small id="emailHelp" class="fom-text text-muted">We'll never share your email with anyone else</small>
+</div>
+
+element.style{
+display: block;
+text-align: center;
+}
+
+SQL
+-----
+
+Structured Query Language
+``````````````````````
+
+Database 
+```````
+Relational Database
+````````````````
+columns(fields)
+rows(records)
+
+Non-Relational Database
+````````````````````
+No-SQL - Unstructed Data
+
+DBMS - Database Management System
+```````````````````````````````
+
+CRUD 
+`````
+Technical support, It Specialist, Network Engineer
+
+
+Program
+```````
+Create database players;
+create table cricketers(
+player_id int,
+name varchar(50)
+)
+
+insert into cricketers(player_id, name) values(1,'Virat Kholi');
+insert into cricketers(player_id, name) values(2,'Rohit Sharma');
+
+Select * from cricketers;
+
+Ubuntu - Virtual Desktop 
+------------------------------------
+sudo apt update 
+sudo apt installmysql-server -y
+sudo systemctl status mysql
+sudo mysql
+- localhost 
+- no password
+
+show databases;
+create database nc_coffee;
+use nc_coffee;
+show tables;
+create table coffee_table (
+id int,
+name varchar(255),- variable character - string
+region varchar(255),
+roast varchar(255)
+);
+
+describe coffee_table;
+insert into coffee_table values (1, "default route", "ethiopia", "light");
+
+select *  from coffee_table;
+
+select name from coffee_table;
+
+select * from avengers where origin = "earth";
+select * from avengers where origin = "earth" or origin = "asgard";
+select alias from avengers where age < 30;
+select alias from avengers where not origin = "earth";
+
+delete from avengers where first_name = jeff";
+update avengers set last_name = NULL where first_name = "groot";
+
+select * from avengers order by age asc;
+select * from avengers order by age desc;
+
+alter table avengers add beard boolean;
+update avengers set beard = True where first_name = "thor";
+update avengers set beard = False where first_name = "groot";
+
+Relational Database 
+----------------------------
+Primary Key 
+Foreign Key 
+
+primary key - unique 
+foreign key - primary key in other table 
+
+ONE-TO-MANY
+One customer Many orders
+One category Many Products
+One department Many employees 
