@@ -1,0 +1,35 @@
+What is the need of computer ethics in education? Discuss.
+
+Define cyber bullying and write about various types of it. What are the various ways to deal with it? Discuss.
+
+How the role of Cloud computing and Big data can be felt with IOT? Explain
+with an example..
+
+Discuss computing virtualization terminologies. Write about platform virtualization and Network virtualization
+
+Why is it so difficult for countries to defend themselves from and respond to cyberattacks? Discuss.
+
+List and briefly discuss five attack motives
+
+Discuss the effects of telecommuting on family life
+
+Explain Morality, Etiquette and Professional Codes
+
+What is Digital Divide? Discuss the factors affecting the Digital Divide
+
+What is anonymity? Discuss two forms of anonymity
+
+Define security and privacy. Why are both important in the information age?
+
+Discuss the challenges in hunt down the cyber criminals. 
+
+Write about the positive and negative impacts of Electronic surveillance on the 
+employees
+
+1 Markers 
+-----------
+Define IOT? What is vision of IOT?
+Define virtualization. Give examples. 
+What is an autonomous agent? 
+What is encryption? Write its use along with an example of it.
+What is the use of firewall? 
