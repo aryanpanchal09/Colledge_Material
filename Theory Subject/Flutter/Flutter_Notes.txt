@@ -1,0 +1,26 @@
+What is Flutter? Explain Files and Folder structures of Flutter Project
+
+Create a Flutter program to display a message “All the Best for Your Exam” as 
+a text in the center of the screen also display demo of output.
+
+Describe following widgets in flutter:
+Scaffold, AppBar, Container, Buttons.
+
+Explain Animation Controller with example. 
+
+Define firebase and cloud firestore. Differentiate SQL Server Database and 
+Cloud Firestore.
+
+Explain form widgets in flutter.
+
+Explain InkWell gestures with example.
+
+Explain InkResponse gestures with example
+
+Grid View 
+
+Scrolling List 
+
+Hot Reload 
+
+Stateless and Statefull Widget
