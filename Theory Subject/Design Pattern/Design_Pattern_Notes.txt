@@ -1,0 +1,98 @@
+Explain how design patterns solve design problems and discuss their advantages.   
+
+Explain the Builder Design Pattern with a reallife example.   
+
+Discuss the Prototype Pattern, its structure, and usage.   
+
+Describe the Abstract Facty Pattern with an example. Compare it with the Facty Method Pattern.   
+
+What is the Adapter Pattern? Explain its structure, advantages, and use cases.   
+
+Explain the Proxy Design Pattern with its types and applications.   
+
+What is the Chain of Responsibility Pattern? Explain with an example.   
+
+State, Strategy & Visitor Patterns
+
+ Basic Concepts and Definitions
+ ----------------------------------------------
+1. Define design patterns and explain their importance in software development.  
+2. What are the three types of design patterns in Java? Provide examples.  
+3. Explain the difference between Structural and Behavioral Design Patterns.  
+4. Describe the concept of the Smalltalk MVC and its significance.  
+5. Discuss how design patterns solve design problems.
+
+ Creational Design Patterns
+ ---------------------------------------
+1. Explain the structure and implementation of the Factory Method Pattern with an example.  
+2. What is a Singleton Design Pattern? How is it implemented?  
+3. Discuss the Prototype Design Pattern, its advantages, and usage.  
+4. Explain the Builder Design Pattern with a real-life example.  
+
+ Structural Design Patterns
+ --------------------------------------
+1. Describe the Adapter Pattern, including its advantages and usage.  
+2. What is the Bridge Pattern? Explain with a UML diagram.  
+3. Explain the Proxy Pattern and its applications in software systems.  
+4. Discuss the Composite Pattern with an example.  
+
+General Concepts
+--------------------------
+1. Define a design pattern and explain its significance in software development.
+2. What are the essential elements of a design pattern? List and describe them.
+3. Discuss how design patterns can solve common design problems in software engineering.
+
+ Creational Patterns
+ ----------------------------
+4. Explain the Factory Method pattern and provide scenarios where it is applicable.
+5. Describe the Singleton pattern, including its structure and implementation details.
+6. What is the Builder pattern? Discuss its advantages and provide an example of its use.
+7. Compare and contrast the Prototype pattern with the Factory Method pattern.
+
+ Structural Patterns
+ ---------------------------
+8. Define the Adapter pattern and discuss its importance in system integration.
+9. Explain the Facade pattern and provide examples of its application in simplifying complex systems.
+10. What are the differences between the Bridge and Decorator patterns?
+11. Describe the Proxy pattern and explain its types along with their use cases.
+
+ Behavioral Patterns
+ ----------------------------
+12. Discuss the Observer pattern, including its structure and application scenarios.
+13. Explain the Chain of Responsibility pattern and provide examples of its implementation.
+14. What is the State pattern, and how does it differ from the Strategy pattern?
+15. Describe the Visitor pattern and discuss its benefits in object-oriented design.
+
+ Application and Implementation
+ ------------------------------------------------
+16. What are some common expectations from implementing design patterns in software projects?
+17. Discuss the role of design patterns in improving code maintainability and scalability.
+18. How can one select an appropriate design pattern for a given problem? Outline a systematic approach.
+19. Explain how to effectively document design patterns used in a project for future reference.
+
+ Case Studies and Examples
+ ----------------------------------------
+20. Provide a case study example where multiple design patterns are used together to solve a complex problem.
+
+
+ Behavioral Design Patterns
+ ---------------------------------------
+1. Define the Chain of Responsibility Pattern and explain its implementation with an example.  
+2. Compare and contrast the Mediator and Memento Patterns.  
+3. Explain the State Design Pattern in detail, including its implementation.  
+4. Discuss the Template Method Pattern and its applications.  
+5. What are the implementation steps for Strategy and Visitor Patterns?  
+
+ Advanced and General Questions
+ -------------------------------------------------
+1. How do you select a design pattern for a given problem?  
+2. Explain the structure, participants, and implementation of the Iterator Pattern.  
+3. Discuss the Catalogue of Design Patterns and its essential elements.  
+4. What are common causes of redesign in software?  
+
+ Practical Implementation
+ -------------------------------------
+1. Write a program to demonstrate the Singleton Pattern.  
+2. Implement the Factory Design Pattern to simulate a restaurant making different types of Thalis.  
+3. Demonstrate the Observer Design Pattern using a scenario where celebrities notify followers.  
+4. Write a Java program to showcase the Proxy Design Pattern in a school internet system.  
