@@ -1,3 +1,39 @@
+// Prototype Interface
+public interface Shape {
+    Shape clone(); // Method to clone the shape
+    void draw();   // Method to draw the shape
+}
+
+// Concrete Prototype: Circle
+public class Circle implements Shape {
+    private String color;
+
+    public Circle(String color) {
+        this.color = color;
+    }
+
+    @Override
+    public Shape clone() {
+        return new Circle(color); // Cloning logic
+    }
+
+    @Override
+    public void draw() {
+        System.out.println("Drawing a " + color + " circle.");
+    }
+}
+
+// Main Class to Demonstrate the Prototype Pattern
+public class PrototypeExample {
+    public static void main(String[] args) {
+        Shape circlePrototype = new Circle("red"); // Create a prototype
+        Shape clonedCircle = circlePrototype.clone(); // Clone the prototype
+        clonedCircle.draw(); // Draw the cloned shape
+    }
+}
+
+--
+
 Explain how design patterns solve design problems and discuss their advantages.   
 
 Explain the Builder Design Pattern with a reallife example.   
