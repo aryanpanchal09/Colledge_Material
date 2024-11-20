@@ -43,3 +43,16 @@ Define virtualization. Give examples.
 What is an autonomous agent? 
 What is encryption? Write its use along with an example of it.
 What is the use of firewall? 
+
+--
+
+What is anonymity? Discuss two forms of anonymity.
+Explain Ethical Theories in detail.
+Define computer crime. What are the various ways to prevent computer crimes?
+Discuss the factors affecting the Digital Divide.
+List and discuss the major threats to individual privacy.
+Define cyberbullying and write about various types of it.
+How can cloud computing and big data be integrated with IoT? Provide an example.
+What are the causes of software failure?
+
+--
