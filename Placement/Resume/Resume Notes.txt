@@ -1,0 +1,40 @@
+STEP 1 - JOB DESCRIPTION 
+------------------------
+Core Expertise Keywords For Job Description (Ex : Full Stack Developer)
+
+Functional Skills 
+
+Tool / Platfrom / FI products : Excel, Powerpoint etc etc 
+
+ATS - Applicant Tracking System
+
+Chat GPT - Pretend to be an ATS and give me a list of ATS keywords mentioned in this JD - Repeat for atleast 15 times - 25 repetative keywords 
+
+STEP 2 - WRITING THE RESUME 
+---------------------------
+Target practise - Focus on JD and Resume 
+
+Introduction Header: Name, Title and Contact Details 
+CA/CFA NAME
+Aspiring Full Stack Developer | Equity Research Profession/Enthusiast
+Number | Email | Location | LinkedIn 
+
+SUMMMARY : Ex - Proficient in web technologies such as HTML, CSS, SQL, and Python, with experience in OOP concepts, DBMS, and the SDLC process. Skilled in troubleshooting, debugging, and developing customized modules, ensuring seamless integration and maintenance of systems like Odoo ERP. Strong problem-solving, adaptability, and collaboration abilities, thriving in fast-paced team environments.
+. Summary for HR as he don't know what is required in the field he just focus on keywords 
+. Start with Aspiring Full-Stack Developer / Emerging Software Developer
+
+EDUCATION : If grades are good mentioned it if not then keywords related to the job field for ex Coursework 
+
+EXPERIENCE : Bullet points and not a paragraph 
+Impact -- not -- respnsibility 
+Action Verbs 
+- Team leader
+- Project coordinator
+- Decision-maker
+
+Bullet Points 
+. What you did - action 
+. Why you did it - context 
+. What it leads to - result 
+
+
