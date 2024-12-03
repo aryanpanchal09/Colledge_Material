@@ -7,7 +7,6 @@ Functional Skills
 Tool / Platfrom / FI products : Excel, Powerpoint etc etc 
 
 ATS - Applicant Tracking System
-
 Chat GPT - Pretend to be an ATS and give me a list of ATS keywords mentioned in this JD - Repeat for atleast 15 times - 25 repetative keywords 
 
 STEP 2 - WRITING THE RESUME 
@@ -32,9 +31,63 @@ Action Verbs
 - Project coordinator
 - Decision-maker
 
+ATS Resume Score 
 Bullet Points 
 . What you did - action 
 . Why you did it - context 
 . What it leads to - result 
 
+EX : Spearheaded a code debugging initiative during an internship project
+
+PROJECTS: Explain with 1 or 2 Bullet Point 
+Example - Developed a custom Odoo ERP module to automate inventory tracking for a mock retail business as part of a college project.
+	     Result: Streamlined inventory management, reducing manual errors by 40%.
+BOOTCAMP: Certificates/ Awards realted to JD
+CORE EXPERTISE/Tools : Platforms etc 
+
+IMPORTANT NOTES 
+Page - 1 Page only 
+Font & Size - Times New Roman, Calibri, Arial - 8.5
+Format - Word & Pdf both allowed 
+
+EXPERIENCE : Chatgpt Prompt given already 
+
+STEP 3 : ATS COMPLIANCE 
+-----------------------
+Database 
+Collect 
+Sort 
+Scan 
+Rank Resume 
+
+HOW? 
+Keywords 
+Extract Info 
+Analyze 
+Rank 
+- Keywords 
+- Repetition of Keywords 
+
+Ex: Panna.ai Check Score should be more than 75% 
+
+UPSCALE : If there is no keywords then upscale your resume 
+Virtual Experience - theforage for intership virtual 
+Personal Projects 
+Certificates
+Course Work 
+Content Contribution - Post related to the Job 
+
+Cover Letter
+- Read 50%
+- With Resume 
+
+Questions asked 
+- Why this profile? Why this carrier?
+- Will you do the work which company want you to do 
+- Why this Company ?
+
+Why this industry ? - Who you are? - Personal story + Soft Skills + Intrigued (Interested / Curious )
+Qualified for this industry - Uniquely Qualified - Upskill + Career Research + Tools/Skills 
+Why this company - Why? - Visit company website 
+CTA - Call to Action 
 
