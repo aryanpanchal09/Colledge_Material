@@ -4,6 +4,9 @@ npm install --save react react-dom @types/react @types/react-dom
 npm install --save-dev ajv@^7
 npm i --save firebase
 
+$env:NODE_OPTIONS = "--openssl-legacy-provider"
+
+
 SETTING UP FIREBASE DEPENDENCIES  
 --------------------------------
 Note - add firebase/compat instead of just firebase while importing 
