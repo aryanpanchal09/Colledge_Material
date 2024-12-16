@@ -1,0 +1,144 @@
+1. What are Design Patterns?  
+-   Design patterns are standardized solutions to common problems in software design, providing a template for developers to follow.
+
+2. How are Design Patterns categorized?  
+-   Design patterns are categorized into three main types:
+   - Creational Patterns: Concerned with object creation mechanisms (e.g., Singleton, Factory).
+   - Structural Patterns: Focus on object composition and relationships (e.g., Adapter, Decorator).
+   - Behavioral Patterns: Deal with communication between objects (e.g., Observer, Strategy).
+
+3. What is the Gang of Four (GOF)?  
+-   The Gang of Four refers to the authors of the book "Design Patterns: Elements of Reusable Object-Oriented Software," which introduced many foundational design patterns.
+
+4. Explain the Singleton Pattern.  
+-   The Singleton pattern restricts a class to a single instance and provides a global point of access to it. This is useful for managing shared resources like configuration settings.
+
+5. What is the Factory Pattern?  
+-   The Factory pattern is a creational design pattern that provides an interface for creating objects but allows subclasses to alter the type of objects that will be created.
+
+6. Differentiate between Factory and Abstract Factory Patterns.  
+-   The Factory pattern creates a single object, while the Abstract Factory pattern creates families of related or dependent objects.
+
+7. What are some advantages of using design patterns?  
+-   Advantages include improved code readability, reusability of solutions, and better communication among developers.
+
+8. Describe the Observer Pattern.  
+-   The Observer pattern defines a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically.
+
+9. What is the Builder Pattern?  
+-   The Builder pattern separates the construction of a complex object from its representation, allowing the same construction process to create different representations.
+
+10. Can you explain the Decorator Pattern?  
+-    The Decorator pattern allows adding new functionality to an existing object without altering its structure by wrapping it with new behavior.
+
+11. What is the purpose of the Strategy Pattern?  
+-    The Strategy pattern enables selecting an algorithm's behavior at runtime by defining a family of algorithms and encapsulating each one.
+
+12. How does the Command Pattern work?  
+-    The Command pattern encapsulates a request as an object, allowing parameterization of clients with queues, requests, and operations.
+
+13. What is the role of the Facade Pattern?  
+-    The Facade pattern provides a simplified interface to a complex subsystem, making it easier for clients to interact with it without dealing with its complexities.
+
+14. Explain the Prototype Pattern.  
+-    The Prototype pattern creates new objects by copying an existing object rather than creating new instances from scratch.
+
+15. What is meant by Dependency Injection?  
+-    Dependency Injection is a design principle where an object receives its dependencies from an external source rather than creating them internally, promoting loose coupling and easier testing.
+
+--
+
+1. What is the purpose of using design patterns in software development?  
+-   Design patterns provide reusable solutions to common problems, improve code structure, enhance maintainability, and facilitate communication among developers.
+
+2. Can you explain the concept of "Design Pattern Catalog"?  
+-   A Design Pattern Catalog is a collection of design patterns organized by their categories (creational, structural, behavioral) and provides descriptions, use cases, and implementation details.
+
+3. What is the difference between a design pattern and a framework?  
+-   A design pattern is a general reusable solution to a recurring problem, while a framework is a specific implementation that provides a foundation for building applications.
+
+4. Describe the Chain of Responsibility Pattern.  
+-   The Chain of Responsibility pattern allows multiple handlers to process a request without knowing the handler's identity. Each handler can either process the request or pass it to the next handler in the chain.
+
+5. What is the role of the Mediator Pattern?  
+-   The Mediator pattern defines an object that encapsulates how a set of objects interact, promoting loose coupling by preventing direct references between objects.
+
+6. Explain the Memento Pattern.  
+-   The Memento pattern allows an object to capture its internal state without exposing its implementation details, enabling restoration of that state later.
+
+7. What is the purpose of the State Pattern?  
+-   The State pattern allows an object to alter its behavior when its internal state changes, enabling it to appear as if it has changed its class.
+
+8. How does the Template Method Pattern work?  
+-   The Template Method pattern defines the skeleton of an algorithm in a base class but allows subclasses to redefine certain steps without changing the algorithm's structure.
+
+9. What are Anti-Patterns?  
+-   Anti-patterns are common responses to recurring problems that are ineffective and counterproductive, often leading to poor software design or architecture.
+
+10. Can you explain what "Composition over Inheritance" means?  
+-    "Composition over Inheritance" is a design principle that favors composing objects with desired functionality rather than relying solely on class inheritance, promoting flexibility and reusability.
+
+11. What is the Proxy Pattern?  
+-    The Proxy pattern provides a surrogate or placeholder for another object to control access to it, often used for lazy initialization, access control, or logging.
+
+12. Describe how the Visitor Pattern works.  
+-    The Visitor pattern allows adding new operations to existing object structures without modifying their classes by defining a visitor class that implements operations on elements of an object structure.
+
+13. What is Inversion of Control (IoC)?  
+-    Inversion of Control is a design principle where control over flow and dependencies is inverted from traditional programming; frameworks often manage this control through dependency injection or event handling.
+
+14. How does the Flyweight Pattern help in optimizing resource usage?  
+-    The Flyweight pattern minimizes memory usage by sharing common parts of state between multiple objects instead of storing duplicate data for each instance.
+
+15. Explain how you would choose which design pattern to use in a given scenario.  
+-    Choosing a design pattern involves analyzing the specific problem context, understanding the relationships between components, considering extensibility needs, and evaluating trade-offs related to complexity and performance.
+
+--
+
+1. What is the significance of the "Open/Closed Principle"?  
+-   The Open/Closed Principle states that software entities (classes, modules, functions) should be open for extension but closed for modification, promoting flexibility and reducing the risk of introducing bugs.
+
+2. Can you explain the difference between aggregation and composition?  
+-   Aggregation is a "has-a" relationship where the contained objects can exist independently of the container, while composition is a stronger relationship where the contained objects cannot exist without the container.
+
+3. What are some common pitfalls when using design patterns?  
+-   Common pitfalls include over-engineering solutions, using patterns unnecessarily, leading to complexity, and misunderstanding pattern implementations, which can result in poor design.
+
+4. How do you decide when to apply a design pattern?  
+-   You should consider applying a design pattern when you encounter a recurring problem, need to improve code maintainability or readability, or require flexibility for future changes.
+
+5. What is the purpose of the Builder Pattern in complex object creation?  
+-   The Builder pattern allows for step-by-step construction of complex objects, enabling different representations and configurations without needing multiple constructors.
+
+6. Explain how the Observer Pattern can be implemented in a GUI application.  
+-   In a GUI application, the Observer pattern can be used to update UI components automatically when underlying data changes. For example, a data model (subject) notifies registered views (observers) to refresh their display.
+
+7. What is the role of interfaces in design patterns?  
+-   Interfaces define contracts for classes that implement them, promoting loose coupling and enabling polymorphism, which is essential in many design patterns.
+
+8. Describe how the Strategy Pattern can enhance code flexibility.  
+-   The Strategy pattern allows algorithms to be defined separately from clients that use them, enabling dynamic switching of algorithms at runtime based on specific conditions.
+
+9. What is the significance of encapsulation in design patterns?  
+-   Encapsulation helps hide implementation details and expose only necessary interfaces, making it easier to change implementations without affecting other parts of the system.
+
+10. Can you explain how design patterns contribute to code maintainability?  
+-    Design patterns provide well-defined solutions that are easier to understand and modify, reducing technical debt and making it simpler for new developers to grasp existing codebases.
+
+11. What is a "Service Locator" pattern?  
+-    The Service Locator pattern provides a central registry where services can be looked up at runtime, allowing for decoupling service consumers from service providers.
+
+12. How does the Decorator Pattern differ from subclassing?  
+-    The Decorator pattern allows behavior to be added dynamically at runtime by wrapping objects with additional functionality, while subclassing creates static relationships at compile time.
+
+13. What is meant by "Loose Coupling"? Why is it important?  
+-    Loose coupling refers to minimizing dependencies between components so that changes in one component have minimal impact on others. It enhances flexibility and makes systems easier to maintain and test.
+
+14. Explain how you would implement a caching mechanism using the Proxy Pattern.  
+-    A caching proxy can store results of expensive operations (like database queries) and return cached results for subsequent requests instead of re-executing the operation.
+
+15. What are some examples of real-world applications or frameworks that utilize design patterns?  
+-    Examples include:
+    - Java's Spring Framework (Dependency Injection)
+    - JavaScript frameworks like React (Observer Pattern)
+    - Model-View-Controller (MVC) architecture used in web applications.
