@@ -1,0 +1,13 @@
+python manage.py runserver
+
+python manage.py makemigrations
+
+python manage.py migrate - validation
+
+form
+urls
+views
+models 
+
+rakeshvarma@gmail.com
+rakesh1234
