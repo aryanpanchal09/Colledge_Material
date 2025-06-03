@@ -1,0 +1,35 @@
+--  What is Project Management, and why is it important?
+--  Define key terms: MOV, AON, Balanced Scorecard.
+
+--  What are the phases of the Project Life Cycle?
+-  Explain the significance of developing a Business Case.
+
+-  What are the contents of a Project Charter?
+-  How does project integration management contribute to project success?
+
+--  Describe the different roles within a project team.
+-  What planning frameworks can be used in project management?
+
+--   What is Scope Creep, and how can it be managed?
+-   Explain the purpose and components of a Work Breakdown Structure.
+
+--  What is the COCOMO estimation model?
+-  Compare topdown and bottomup estimation approaches.
+
+--  Discuss various techniques for risk identification.
+--  Why is risk management crucial for project success?
+
+-  What information should be provided to stakeholders?
+-  How does effective communication impact project outcomes?
+-  What elements should be included in an IT Project Quality Plan?
+-  Differentiate between verification and validation in project management.
+
+-  Discuss the advantages and disadvantages of different implementation approaches.
+--  Which implementation approach is most suitable for an eCommerce project?
+
+--  What processes should be followed during project closure?
+--  Why is conducting a project audit important after closure?
+
+- Discuss common causes of project failure.
+- Explain how to develop a communication plan for a project.
+- Compare Status Reports, Progress Reports, and Forecast Reports.
